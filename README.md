@@ -1,5 +1,11 @@
 # Telco Customer Churn Prediction
 
+> **Business-focused ML case study**
+> Predicting customer churn and translating model outputs
+> into actionable retention strategies via threshold tuning
+> and model interpretability.
+
+
 End-to-end applied machine learning project for customer churn prediction
 using tabular data.
 The project covers the full ML lifecycle: EDA, feature engineering,
@@ -22,7 +28,10 @@ In this project we:
 - interpret model predictions,
 - translate model outputs into actionable business scenarios.
 
-The focus is on **applied ML**, not academic modeling.
+The focus is on **applied ML**:
+building models that can be realistically deployed
+and used for decision-making, not academic experimentation.
+
 
 ---
 
@@ -127,6 +136,9 @@ ml_churn_telco/
 
 CatBoost slightly improves PR-AUC, which is especially important for identifying churners in an imbalanced setting.
 
+Main results and business scenarios are demonstrated in:
+`05_threshold_tuning_and_business_impact.ipynb`
+
 ---
 
 ## 🧠 Key Insights
@@ -163,6 +175,15 @@ The model provides ranked churn probabilities, allowing the business to adapt th
 - CatBoost
 - SHAP
 - matplotlib
+
+---
+
+## ✅ Key Takeaway
+
+This project shows how churn prediction can be used
+not only as a classification task,
+but as a flexible decision-support system
+adaptable to different business budgets and strategies.
 
 ---
 
