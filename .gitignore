@@ -1,0 +1,24 @@
+# virtual env
+env/
+venv/
+.venv/
+
+# VS Code / Jupyter
+.vscode/
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# CatBoost / временные файлы
+catboost_info/
+*.log
+
+# большие промежуточные данные
+data/interim/
+data/external/
