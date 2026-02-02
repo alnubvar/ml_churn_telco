@@ -22,3 +22,9 @@ catboost_info/
 # большие промежуточные данные
 data/interim/
 data/external/
+
+# CatBoost default output (prevent accidental logs in root)
+logs/learn/
+logs/test/
+logs/*.tsv
+logs/*.json
